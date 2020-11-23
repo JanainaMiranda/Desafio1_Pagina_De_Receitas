@@ -1,3 +1,10 @@
+#myHeader,#meucabecalho,#cabecalho{
+    color: white;
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    text-transform: uppercase;
+}
 body{
     background-color:#F5C5A2;
     text-align: center;
@@ -18,4 +25,20 @@ footer{
    color: white;
    
     
+}
+.mybody{
+    color:#ff4da6;
+    font-size: 25px;
+}
+
+.cabecalho{
+    font-size: 25px; 
+}
+
+.cabecalho1{
+    font-size: 35px;
+}
+
+.link{
+    padding: 20px;
 }
