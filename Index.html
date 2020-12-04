@@ -5,8 +5,16 @@
         <meta charset="UTF-8">
         <link href="css/principal.css" rel="stylesheet">
 
+        <script>
+            window.onload = function () {
+                var textoRodape = "ultima atualização &copy copyright 2020";
+                document.getElementById("rodapeIndex").innerHTML = textoRodape + "<article></article>";
+            }
+        </script>
+
     <body >
 
+        
         <!--DIV COM A CLASSE CONTEINERS PARA FACILITAR NA HORA DA ESTILIZAÇÃO-->
         <div class="conteiners">
             <h1 id="myHeader">Receitas</h1>
@@ -34,12 +42,12 @@
             <br>
         </div>
 
-        <!--RODAPÉ-->
-        <div class="rodape">
-        <footer >
-           ultima atualização © copyright 2020  <article>
+        <footer>
+            <div id="rodapeIndex" class="rodape">
+            
+            ultima atualização © copyright 2020  <article> 
+            </div>  
         </footer> 
-    </div>
 
     </body>
 </html>

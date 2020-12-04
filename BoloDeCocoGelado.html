@@ -5,6 +5,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/principal.css" rel="stylesheet">
+        <script>
+            window.onload = function () {
+                var textoRodape = "ultima atualização &copy copyright 2020";
+                document.getElementById("rodapeBoloDeCocoGelado").innerHTML = textoRodape + "<article></article>";
+            }
+        </script>
     </head>
 
     <body >
@@ -82,8 +88,8 @@
             <h3><a href="https://www.tudogostoso.com.br/receita/137142-bolo-de-coco-gelado.html">click aqui</a> E acesse o site de referência dessa receita </h3>
             <br>
         </div>
-            <footer class="rodape">
-                ultima atualização © copyright 2020  <article>
-            </footer>    
+        <footer>
+            <div id="rodapeBoloDeCocoGelado" class="rodape"></div>
+        </footer>
     </body>
 </html>

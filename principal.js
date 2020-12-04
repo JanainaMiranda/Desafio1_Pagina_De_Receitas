@@ -1,0 +1,1 @@
+document.getElementById('umObjetoQualquer').innerHTML+="ultima atualização © copyright 2020"

@@ -6,6 +6,13 @@
         <link href="css/principal.css" rel="stylesheet">
     </head>
 
+    <script>
+        window.onload = function () {
+            var textoRodape = "ultima atualização &copy copyright 2020";
+            document.getElementById("rodapePudim").innerHTML = textoRodape + "<article></article>";
+        }
+    </script>
+
     <body >
 
         <div class="conteiners">
@@ -68,10 +75,13 @@
                 <h3><a href="https://www.tudogostoso.com.br/receita/31593-pudim-de-leite-condensado.html">click aqui</a> E acesse o site de referência dessa receita </h3>
                 <br>
             </div>
-            <div>
-            <footer class="rodape">
-                ultima atualização © copyright 2020  <article>
-             </footer> 
-            </div>
+
+            <footer >
+                <div id="rodapePudim" class="rodape">
+                
+                    ultima atualização © copyright 2020  <article>
+                
+                </div>
+            </footer> 
     </body>
 </html>
